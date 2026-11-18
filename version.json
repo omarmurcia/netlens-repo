@@ -1,7 +1,7 @@
 {
-  "version": "0.2.4",
+  "version": "0.2.5",
   "pkgrel": 1,
   "release_date": "2026-11-18",
-  "changelog": "NetLens 0.2.4: Actualización automática in-app con reinicio desacoplado y corrección visual de iconos.",
+  "changelog": "NetLens 0.2.5: Versión de prueba para verificar reinicio automático e icono único de actualización.",
   "url": "https://omarmurcia.github.io/netlens-repo"
 }
