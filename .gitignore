@@ -1,0 +1,4 @@
+*.lock
+*.old
+*~
+.DS_Store
