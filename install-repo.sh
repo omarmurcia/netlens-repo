@@ -22,9 +22,10 @@ EOF
     echo "✅ Repository added successfully."
 fi
 
-echo "==> Synchronizing repository and installing NetLens..."
-sudo pacman -Sy --noconfirm netlens
+echo "==> Synchronizing repository and installing/updating NetLens..."
+sudo rm -f /var/cache/pacman/pkg/netlens* 2>/dev/null || true
+sudo pacman -Syy --noconfirm netlens
 
 echo ""
-echo "🎉 NetLens has been successfully installed!"
+echo "🎉 NetLens has been successfully installed/updated!"
 echo "You can launch it from your application menu (Internet) or by running: netlens"
