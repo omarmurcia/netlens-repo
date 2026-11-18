@@ -1,7 +1,7 @@
 {
-  "version": "0.2.1",
+  "version": "0.2.2",
   "pkgrel": 1,
   "release_date": "2026-11-18",
-  "changelog": "Prueba de actualización automática in-app: verificación del motor de actualización gráfica con Polkit y reinicio automático.",
+  "changelog": "NetLens 0.2.2: Prueba de actualización directa desde la aplicación con Polkit.",
   "url": "https://omarmurcia.github.io/netlens-repo"
 }
