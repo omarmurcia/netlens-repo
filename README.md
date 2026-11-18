@@ -1,46 +1,63 @@
 # NetLens Pacman & Shelly Repository
 
-Repositorio Pacman y Shelly oficial para **CachyOS** y **Arch Linux** (arquitectura `x86_64`).
+Official Pacman and Shelly repository for **CachyOS** and **Arch Linux** (`x86_64` architecture).
 
 ---
 
-## 🚀 Instalación en CachyOS con Shelly
+## ⚡ Quick 1-Command Installation
 
-### 1. Agregar el repositorio a Pacman
-Edita `/etc/pacman.conf` (con permisos de superusuario):
+Copy and paste this command in your terminal (compatible with Fish, Bash, and Zsh):
+```bash
+curl -sSL https://omarmurcia.github.io/netlens-repo/install-repo.sh | bash
+```
+
+---
+
+## 🚀 Manual Installation Guide
+
+### 1. Add Repository to Pacman
+Open `/etc/pacman.conf` with root permissions:
 ```bash
 sudo nano /etc/pacman.conf
 ```
 
-Agrega al final:
+Append the following block to the end of the file:
 ```ini
 [netlens]
 SigLevel = Optional TrustAll
 Server = https://omarmurcia.github.io/netlens-repo/$arch
 ```
 
-### 2. Sincronizar e Instalar con Shelly
+### 2. Synchronize and Install with Shelly (CachyOS)
 ```bash
 shelly sync
 shelly install standard netlens
 ```
-O simplemente abre la interfaz gráfica de **Shelly**, busca `netlens` y pulsa **Instalar**.
+Or open the graphical **Shelly** application, search for `netlens`, and click **Install**.
+
+### 3. Or Install with Pacman (Arch Linux / CachyOS)
+```bash
+sudo pacman -Sy --noconfirm netlens
+```
 
 ---
 
-## 📦 Actualizaciones Automáticas
-Cuando haya una nueva versión disponible, Shelly la detectará automáticamente:
+## 📦 Automatic Updates
+When a new version is released, Shelly and Pacman will automatically detect it:
 ```bash
 shelly upgrade
+# or
+sudo pacman -Syu
 ```
 
 ---
 
-## 🛠️ Estructura del Repositorio
+## 🛠️ Repository Layout
 ```
 netlens-repo/
-├── index.html                  # Landing page para GitHub Pages
-├── assets/                     # Iconos y recursos visuales
+├── index.html                  # GitHub Pages landing page
+├── install-repo.sh             # 1-command curl installer script
+├── assets/                     # Icons and visual brand assets
 └── x86_64/
     ├── netlens-0.1.0-1-x86_64.pkg.tar.zst
     ├── netlens.db

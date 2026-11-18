@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NetLens - Repositorio Oficial Pacman & Shelly para CachyOS / Arch</title>
+  <title>NetLens - Official Pacman & Shelly Repository for CachyOS / Arch</title>
   <link rel="icon" type="image/png" href="assets/netlens.png">
   <style>
     :root {
@@ -151,53 +151,53 @@
     <header>
       <img src="assets/netlens.png" alt="NetLens Logo" class="logo">
       <h1>NetLens Repository</h1>
-      <p class="subtitle">Repositorio oficial Pacman & Shelly para <strong>CachyOS</strong> y <strong>Arch Linux</strong> (x86_64)</p>
+      <p class="subtitle">Official Pacman & Shelly repository for <strong>CachyOS</strong> and <strong>Arch Linux</strong> (x86_64)</p>
     </header>
 
     <div class="card" style="border-color: rgba(56, 189, 248, 0.4); background: rgba(56, 189, 248, 0.05);">
-      <h2>⚡ Instalación Rápida con 1 Solo Comando</h2>
-      <p>Copia y pega este comando en tu terminal para configurar el repositorio e instalar NetLens automáticamente:</p>
-      <pre>bash &lt;(curl -sSL https://omarmurcia.github.io/netlens-repo/install-repo.sh)</pre>
+      <h2>⚡ Quick 1-Command Installation</h2>
+      <p>Copy and run this command in your terminal to automatically configure the repository and install NetLens:</p>
+      <pre>curl -sSL https://omarmurcia.github.io/netlens-repo/install-repo.sh | bash</pre>
     </div>
 
     <div class="card">
-      <h2><span class="step-number">1</span> O configuración manual de Pacman</h2>
-      <p>Abre tu archivo <code>/etc/pacman.conf</code> con permisos de administrador:</p>
+      <h2><span class="step-number">1</span> Or Manual Pacman Configuration</h2>
+      <p>Open your <code>/etc/pacman.conf</code> file with root privileges:</p>
       <pre>sudo nano /etc/pacman.conf</pre>
-      <p>Agrega el siguiente bloque al final del archivo:</p>
+      <p>Append the following block to the end of the file:</p>
       <pre>[netlens]
 SigLevel = Optional TrustAll
 Server = https://omarmurcia.github.io/netlens-repo/$arch</pre>
     </div>
 
     <div class="card">
-      <h2><span class="step-number">2</span> Instalar con Shelly en CachyOS</h2>
-      <p>Actualiza la base de datos de paquetes e instala NetLens directamente:</p>
+      <h2><span class="step-number">2</span> Install with Shelly on CachyOS</h2>
+      <p>Synchronize package databases and install NetLens directly:</p>
       <pre>shelly sync
 shelly install standard netlens</pre>
-      <p>También puedes abrir la <strong>aplicación gráfica de Shelly</strong> en tu escritorio y buscar <code>netlens</code> en el catálogo del sistema.</p>
+      <p>You can also open the <strong>Shelly graphical application</strong> from your desktop and search for <code>netlens</code> in the system catalog.</p>
     </div>
 
     <div class="card">
-      <h2><span class="step-number">3</span> O instalar directamente con Pacman</h2>
-      <pre>sudo pacman -Syu netlens</pre>
+      <h2><span class="step-number">3</span> Or Install with Pacman</h2>
+      <pre>sudo pacman -Sy --noconfirm netlens</pre>
     </div>
 
     <div class="card">
-      <h2>📦 Paquetes y Descargas Directas</h2>
-      <p>Archivos binarios compilados listos para descarga manual:</p>
+      <h2>📦 Pre-compiled Package Downloads</h2>
+      <p>Pre-compiled binary packages ready for direct download:</p>
       <div class="links">
         <a href="x86_64/netlens-0.1.0-1-x86_64.pkg.tar.zst" class="btn">
-          📥 Descargar .pkg.tar.zst (v0.1.0)
+          📥 Download .pkg.tar.zst (v0.1.0)
         </a>
         <a href="x86_64/netlens.db.tar.zst" class="btn btn-secondary">
-          🗄️ Base de Datos Pacman (netlens.db)
+          🗄️ Pacman Database (netlens.db)
         </a>
       </div>
     </div>
 
     <footer>
-      <p>NetLens — Diseñado con Rust e Iced para máximo rendimiento en redes locales.</p>
+      <p>NetLens — Built with Rust and Iced for high-performance local network monitoring.</p>
     </footer>
   </div>
 </body>
