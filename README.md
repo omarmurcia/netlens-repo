@@ -16,9 +16,8 @@ Agrega al final:
 ```ini
 [netlens]
 SigLevel = Optional TrustAll
-Server = https://<TU-USUARIO>.github.io/netlens-repo/$arch
+Server = https://omarmurcia.github.io/netlens-repo/$arch
 ```
-*(Reemplaza `<TU-USUARIO>` por tu usuario de GitHub).*
 
 ### 2. Sincronizar e Instalar con Shelly
 ```bash
