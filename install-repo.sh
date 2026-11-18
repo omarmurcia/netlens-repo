@@ -22,14 +22,9 @@ EOF
     echo "✅ Repositorio agregado correctamente."
 fi
 
-echo "==> Sincronizando bases de datos e instalando..."
-if command -v shelly >/dev/null 2>&1; then
-    shelly sync
-    shelly install -n standard netlens
-else
-    sudo pacman -Sy --noconfirm netlens
-fi
+echo "==> Sincronizando repositorio e instalando NetLens..."
+sudo pacman -Sy --noconfirm netlens
 
 echo ""
 echo "🎉 ¡NetLens ha sido instalado con éxito!"
-echo "Puedes abrirlo desde tu menú de inicio o ejecutando: netlens"
+echo "Puedes abrirlo desde tu menú de inicio (Internet) o ejecutando: netlens"
