@@ -1,7 +1,7 @@
 {
-  "version": "0.2.3",
+  "version": "0.2.4",
   "pkgrel": 1,
   "release_date": "2026-11-18",
-  "changelog": "NetLens 0.2.3: Actualización automática in-app con diálogo gráfico de autorización Polkit y terminal en 1 clic.",
+  "changelog": "NetLens 0.2.4: Actualización automática in-app con reinicio desacoplado y corrección visual de iconos.",
   "url": "https://omarmurcia.github.io/netlens-repo"
 }
