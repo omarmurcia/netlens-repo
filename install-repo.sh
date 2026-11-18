@@ -2,19 +2,15 @@
 set -e
 
 # Script de instalación automática del repositorio NetLens para CachyOS / Arch Linux
-GITHUB_USER="${1:-}"
-
-if [ -z "${GITHUB_USER}" ]; then
-    echo "=========================================================="
-    echo "⚙️ Configuración del Repositorio NetLens para CachyOS/Arch"
-    echo "=========================================================="
-    read -rp "Ingresa tu usuario de GitHub (o presiona Enter si usas un dominio propio): " GITHUB_USER
-fi
-
+GITHUB_USER="${1:-omarmurcia}"
 REPO_URL="https://${GITHUB_USER}.github.io/netlens-repo/\$arch"
 
+echo "=========================================================="
+echo "⚡ Instalador Oficial de NetLens (CachyOS / Arch Linux)"
+echo "=========================================================="
+
 if grep -q "\[netlens\]" /etc/pacman.conf; then
-    echo "ℹ️ El repositorio [netlens] ya existe en /etc/pacman.conf"
+    echo "ℹ️ El repositorio [netlens] ya está configurado en /etc/pacman.conf"
 else
     echo "==> Agregando repositorio [netlens] a /etc/pacman.conf..."
     cat << EOF | sudo tee -a /etc/pacman.conf
@@ -26,13 +22,14 @@ EOF
     echo "✅ Repositorio agregado correctamente."
 fi
 
-echo "==> Sincronizando bases de datos..."
+echo "==> Sincronizando bases de datos e instalando..."
 if command -v shelly >/dev/null 2>&1; then
     shelly sync
-    echo "==> Instalando NetLens con Shelly..."
-    shelly install standard netlens
+    shelly install -n standard netlens
 else
     sudo pacman -Sy --noconfirm netlens
 fi
 
+echo ""
 echo "🎉 ¡NetLens ha sido instalado con éxito!"
+echo "Puedes abrirlo desde tu menú de inicio o ejecutando: netlens"
