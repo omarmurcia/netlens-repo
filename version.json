@@ -1,7 +1,7 @@
 {
-  "version": "0.2.5",
+  "version": "0.2.6",
   "pkgrel": 1,
   "release_date": "2026-11-18",
-  "changelog": "NetLens 0.2.5: Versión de prueba para verificar reinicio automático e icono único de actualización.",
+  "changelog": "NetLens 0.2.6: Versión de prueba para validación continua del actualizador in-app.",
   "url": "https://omarmurcia.github.io/netlens-repo"
 }
