@@ -1,7 +1,7 @@
 {
-  "version": "0.2.10",
+  "version": "0.2.11",
   "pkgrel": 1,
   "release_date": "2026-11-19",
-  "changelog": "NetLens 0.2.10: Campo de búsqueda ampliado y barra de filtros de dispositivos con desplazamiento horizontal fluido.",
+  "changelog": "NetLens 0.2.11: Scrollbar horizontal de categorías refinada (ultra-delgada, discreta, con margen respecto a los botones y visible únicamente al pasar el cursor sobre el área).",
   "url": "https://omarmurcia.github.io/netlens-repo"
 }
