@@ -1,7 +1,7 @@
 {
-  "version": "0.2.8",
+  "version": "0.2.9",
   "pkgrel": 1,
   "release_date": "2026-11-19",
-  "changelog": "NetLens 0.2.8: Huella digital multicapa (mDNS, SSDP, HTTP/DIAL, sondeo rápido de puertos clave) y 16 categorías granulares de dispositivos con traducción en 10 idiomas.",
+  "changelog": "NetLens 0.2.9: Escaneo automático en segundo plano predeterminado cada 30s en instalaciones limpias para detección continua de dispositivos nuevos.",
   "url": "https://omarmurcia.github.io/netlens-repo"
 }
