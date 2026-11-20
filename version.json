@@ -1,7 +1,7 @@
 {
-  "version": "0.2.13",
+  "version": "0.2.14",
   "pkgrel": 1,
   "release_date": "2026-11-20",
-  "changelog": "NetLens 0.2.13: Carga directa de archivos y carpetas mediante arrastrar y soltar (drag & drop) en el explorador de almacenamiento del router, con zona de caída reactiva y soporte completo en 10 idiomas.",
+  "changelog": "NetLens 0.2.14: Filas de archivos y carpetas con estilo rectangular plano sin bordes redondeados en el almacenamiento del router, soporte optimizado para drag & drop en Wayland/XWayland y apertura automática del explorador.",
   "url": "https://omarmurcia.github.io/netlens-repo"
 }
