@@ -1,7 +1,7 @@
 {
-  "version": "0.2.14",
+  "version": "0.2.15",
   "pkgrel": 1,
   "release_date": "2026-11-20",
-  "changelog": "NetLens 0.2.14: Filas de archivos y carpetas con estilo rectangular plano sin bordes redondeados en el almacenamiento del router, soporte optimizado para drag & drop en Wayland/XWayland y apertura automática del explorador.",
+  "changelog": "NetLens 0.2.15: Optimización integral de rendimiento (telemetría asíncrona sin bloqueo de UI, escaneo de red paralelo sin subprocesos ping, caché GPU para Sparklines, filtrado/ordenación cacheados, escritura atómica en segundo plano, icono de bandeja compacto 64x64 y binario release LTO/strip reducido).",
   "url": "https://omarmurcia.github.io/netlens-repo"
 }
