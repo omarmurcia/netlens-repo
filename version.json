@@ -1,7 +1,7 @@
 {
-  "version": "0.2.12",
+  "version": "0.2.13",
   "pkgrel": 1,
-  "release_date": "2026-11-19",
-  "changelog": "NetLens 0.2.12: Filtros de categorías basados exclusivamente en dispositivos detectados y alineación centrada (horizontal y vertical) en todas las píldoras de la aplicación.",
+  "release_date": "2026-11-20",
+  "changelog": "NetLens 0.2.13: Carga directa de archivos y carpetas mediante arrastrar y soltar (drag & drop) en el explorador de almacenamiento del router, con zona de caída reactiva y soporte completo en 10 idiomas.",
   "url": "https://omarmurcia.github.io/netlens-repo"
 }
