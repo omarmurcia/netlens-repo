@@ -1,7 +1,7 @@
 {
-  "version": "0.2.18",
+  "version": "0.2.19",
   "pkgrel": 1,
   "release_date": "2026-11-21",
-  "changelog": "NetLens 0.2.18: Agregados 8 idiomas, tooltips por herramienta, ocultar dispositivo por defecto, contador de dispositivos por herramienta, diseño minimalista moderno, removidos los botones de cierre inferiores, soporte para dispositivos de TV Android/Google TV, Tooltip de estado de IP.",
+  "changelog": "NetLens 0.2.19: Agregados 8 idiomas, tooltips por herramienta, ocultar dispositivo por defecto, contador de dispositivos por herramienta, diseño minimalista moderno, removidos los botones de cierre inferiores, soporte para dispositivos de TV Android/Google TV, Tooltip de estado de IP.",
   "url": "https://omarmurcia.github.io/netlens-repo"
 }
