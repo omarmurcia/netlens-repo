@@ -1,7 +1,7 @@
 {
-  "version": "0.2.15",
+  "version": "0.2.16",
   "pkgrel": 1,
   "release_date": "2026-11-20",
-  "changelog": "NetLens 0.2.15: Optimización integral de rendimiento (telemetría asíncrona sin bloqueo de UI, escaneo de red paralelo sin subprocesos ping, caché GPU para Sparklines, filtrado/ordenación cacheados, escritura atómica en segundo plano, icono de bandeja compacto 64x64 y binario release LTO/strip reducido).",
+  "changelog": "NetLens 0.2.16: Rediseño profesional de las ventanas de Ajustes, Test de Velocidad, Auditoría, Historial, Wi-Fi, Almacenamiento del Router y Acerca de; nueva barra de herramientas con acentos por herramienta, contadores y divisores; eliminación de botones de cierre inferiores e íconos duplicados en títulos; nuevo ícono ℹ️ para Acerca de.",
   "url": "https://omarmurcia.github.io/netlens-repo"
 }
