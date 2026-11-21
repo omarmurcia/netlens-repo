@@ -1,7 +1,7 @@
 {
-  "version": "0.2.21",
+  "version": "0.2.22",
   "pkgrel": 1,
   "release_date": "2026-11-21",
-  "changelog": "NetLens 0.2.21: Integración con herramientas externas,soporte para dispositivos de TV Android/Google TV, Tooltip de estado de IP.",
+  "changelog": "NetLens 0.2.22: Arreglo de errores y mejora de rendimiento",
   "url": "https://omarmurcia.github.io/netlens-repo"
 }
