@@ -42,6 +42,15 @@ sudo pacman -Sy --noconfirm netlens
 
 ---
 
+## 🪟 Windows Installation
+
+NetLens also runs natively on **Windows 10/11 (x86_64)**. In PowerShell:
+```powershell
+irm https://omarmurcia.github.io/netlens-repo/install-windows.ps1 | iex
+```
+The script downloads the latest `netlens-*-windows-x86_64.zip` from the [NetLens releases](https://github.com/omarmurcia/netlens/releases), installs it in `%LOCALAPPDATA%\NetLens` and creates a Start Menu shortcut. Re-run it to update.
+
+---
 ## 📦 Automatic Updates
 When a new version is released, Shelly and Pacman will automatically detect it:
 ```bash
@@ -56,7 +65,8 @@ sudo pacman -Syu
 ```
 netlens-repo/
 ├── index.html                  # GitHub Pages landing page
-├── install-repo.sh             # 1-command curl installer script
+├── install-repo.sh             # 1-command curl installer script (Arch / CachyOS)
+├── install-windows.ps1         # 1-command PowerShell installer (Windows)
 ├── assets/                     # Icons and visual brand assets
 └── x86_64/
     ├── netlens-0.1.0-1-x86_64.pkg.tar.zst
