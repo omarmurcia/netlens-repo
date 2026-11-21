@@ -1,7 +1,7 @@
 {
-  "version": "0.2.22",
+  "version": "0.2.23",
   "pkgrel": 1,
   "release_date": "2026-11-21",
-  "changelog": "NetLens 0.2.22: Arreglo de errores y mejora de rendimiento",
+  "changelog": "NetLens 0.2.23: Actualización de versión",
   "url": "https://omarmurcia.github.io/netlens-repo"
 }
