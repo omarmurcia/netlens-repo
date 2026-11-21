@@ -1,7 +1,7 @@
 {
-  "version": "0.2.16",
+  "version": "0.2.17",
   "pkgrel": 1,
-  "release_date": "2026-11-20",
-  "changelog": "NetLens 0.2.16: Rediseño profesional de las ventanas de Ajustes, Test de Velocidad, Auditoría, Historial, Wi-Fi, Almacenamiento del Router y Acerca de; nueva barra de herramientas con acentos por herramienta, contadores y divisores; eliminación de botones de cierre inferiores e íconos duplicados en títulos; nuevo ícono ℹ️ para Acerca de.",
+  "release_date": "2026-11-21",
+  "changelog": "NetLens 0.2.17: Agregados 8 idiomas, tooltips por herramienta, ocultar dispositivo por defecto, contador de dispositivos por herramienta, diseño minimalista moderno, removidos los botones de cierre inferiores, soporte para dispositivos de TV Android/Google TV, Tooltip de estado de IP.",
   "url": "https://omarmurcia.github.io/netlens-repo"
 }
